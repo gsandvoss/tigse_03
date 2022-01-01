@@ -9,8 +9,10 @@ class PinsController < ApplicationController
     @pins = Pin.all
   end
 
-  def show
-  end
+    # GET /pins/1 or /pins/1.json
+    def show
+      respond_with(@pin)
+    end
 
   def new
     @pin = current_user.pins.build
@@ -47,7 +49,7 @@ class PinsController < ApplicationController
     end
 
     def pin_params
-      params.require(:pin).permit(:description)
+      params.require(:pin).permit(:description, :image, uploads: [])
     end
 
 
