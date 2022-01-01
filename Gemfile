@@ -27,7 +27,7 @@ gem 'active_storage_validations'
 gem 'mini_magick', '~> 4.11'
 gem 'carrierwave', '~> 2.2', '>= 2.2.2'
 gem 'masonry-rails', '~> 0.2.4'
-gem 'jquery-turbolinks'
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
