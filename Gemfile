@@ -25,7 +25,6 @@ gem 'jquery-rails'
 gem 'image_processing', '~> 1.2'
 gem 'active_storage_validations'
 gem 'mini_magick', '~> 4.11'
-gem 'carrierwave', '~> 2.2', '>= 2.2.2'
 gem 'masonry-rails', '~> 0.2.4'
 
 
